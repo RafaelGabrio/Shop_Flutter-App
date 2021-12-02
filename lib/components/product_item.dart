@@ -22,6 +22,7 @@ class ProductItem extends StatelessWidget {
           leading: IconButton(
             onPressed: () {},
             icon: const Icon(Icons.favorite),
+            color: Theme.of(context).accentColor,
           ),
           title: Text(
             product.title,
